@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+
+    THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS
+    FOR A PARTICULAR PURPOSE. THIS CODE AND INFORMATION ARE NOT SUPPORTED BY XEBIALABS.
+
+-->
+<synthetic xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" xmlns="http://www.xebialabs.com/deployit/synthetic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <type type="ansible.RunPlaybook" extends="xlrelease.PythonScript">
+    <property name="iconLocation" default="ansible/ansible_logo.png" hidden="true"/>
+    <property name="taskColor" hidden="true" default="#64c5c7"/>
+    <property name="playbook" category="input" description="playbook to run on the remote host" />
+    <property name="host" kind="ci" referenced-type="remoteScript.OverthereHost" category="input" description="Overthere host to execute the script."/>
+    <property name="remotePath" required="false" category="input" description="Remote working directory (optional)."/>
+
+    <property name="output" required="false" category="output" description="Console output of the remote process (stdout)."/>
+    <property name="error" required="false" category="output" description="Error output of the remote process (stderr)."/>
+  </type>
+
+ </synthetic>
