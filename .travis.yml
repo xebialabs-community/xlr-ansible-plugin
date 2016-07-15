@@ -4,7 +4,7 @@ deploy:
   provider: releases
   api_key:
     secure: Y4jofIv+hQ0jz3IAv0Qgh6Usp6TY0l5fYYePix8Hyp6jXq35Mw9AJ4DYnBYL1Cc2XQBKDN/8Ilze9i2M4eL9JyK70OsM27mkfmb5Za+thdsl265R0UY9JFOn6l/FPIYZHUL9A+KeSmaVnhkQ/CtAJdSY6q9SGXylriWrU95tGT8K/EsYvQ/H99qE4thuFyZtoDmReksV+azzLBTGITY2IznjiMgZevGdWe24UYFcqfiVDt15+O7XKDZfErQBzyPABZQhDy7EyGQJezz4kFgz+ti/nUDVydAXuFC0vXv/PNLtbCxt+M2GxalKzvSOQqD3UCS9+8jQc44K0Uu2bkeIips+KCwbNIteOWXTDDibk35l9rKupZEEyHq5pSItgHftZ96vO3CudqvJPxI6hR+y2l3HvH/8gzCgKXVOZhJked9JyfJG2B/5hfPzgmE1Bv2ENDYVReBrx8McYdMEPxaXGSdBN2XIvJNn3t1KXQ/QpqCASz8hZAkl91+hlL4anXPNZM8Y+fv6X7zemy5Q/FLPwSAwcUfStuq+cZeWZSEPYqNw9VhiNCPedFuzkgI54RKikcbIVpE7SRKOSONmq98iOHCcgXlfoM3S5kvDzSzeUdoemiiO4sgmkHqNNzsYapksHCINOEai1mkfvqTUlmaHVmHT9p3C729ugBPZP9A43hE=
-  file: build//libs/xlr-ansible-plugin-1.0.1.jar
+  file: build//libs/xlr-ansible-plugin-1.0.2.jar
   on:
     repo: xebialabs-community/xlr-ansible-plugin
     all_branches: true
